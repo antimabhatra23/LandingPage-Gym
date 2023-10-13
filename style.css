@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Josefin+Sans:wght@400;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 80vw;
+}
+
+.navbar {
+  display: flex;
+  height: 60px;
+  color: #a12141;
+}
+
+.navbar li {
+  list-style: none;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0px 11px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.section1 {
+  max-height: 100vh;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.topleft {
+  width: 50%;
+}
+
+.topright {
+  width: 50%;
+}
+
+.section1 h1 {
+  color: #330813;
+  font-size: 1.9rem;
+}
+
+.section1 p {
+  font-size: 17px;
+  color: #3d0614;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+}
+
+.btn {
+  margin: 0px 5px;
+  padding: 7px;
+  cursor: pointer;
+  background-color: transparent;
+  color: #a12141;
+  border: 2px solid #a12141;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #a12141;
+}
+
+.deal{
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 12px 0;
+  color: #3d0614;
+}
+
+.section2 {
+  padding-left: 63px;
+  padding-right: 63px;
+  padding-bottom: 25px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.section2 h1 {
+  font-size: 2.8rem;
+  color: #330813;
+}
+
+.section2 h2 {
+  font-size: 1.9rem;
+  padding: 6px 0px;
+  color: #3d0614;
+}
+
+.section2 p {
+  padding: 0 15vw;
+  text-align: center;
+  font-size: 17px;
+  color: #3d0614;
+}
+
+.box {
+  padding: 12px 0px;
+  margin: 12px 22px;
+  min-width: 20vw;
+  min-height: 244px;
+  border: 2px solid #a12141;
+  border-radius: 7px;
+  text-align: center;
+  color: #3d0614;
+}
+
+.box ul {
+  list-style-type: none;
+}
+
+.box ul li {
+  margin: 12px 2px;
+}
+
+.section3 {
+  padding-left: 63px;
+  padding-right: 63px;
+  padding-top: 25px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #330813;
+}
+
+.section3 h1 {
+  font-size: 2.5rem;
+}
+
+.section3 table {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  border-collapse: collapse;
+}
+
+.section3 table th {
+  width: 23vw;
+  padding: 10px 0px;
+  border-bottom: 2px solid #a12141;
+}
+
+.section3 table td {
+  border-bottom: 2px solid #a12141;
+}
+
+.section3 table tr {
+  border-bottom: 2px solid #a12141;
+}
+
+.plantable {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  padding: 23px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 17px;
+  color: #330813;
+}
+
+.footer .icons i {
+  cursor: pointer;
+  padding: 0px 12px;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 850px) {
+  .flex {
+    flex-direction: column;
+  }
+  .topleft {
+    padding-top: 2px;
+  }
+  .topright {
+    display: none !important;
+  }
+  .logo {
+    font-size: 17px;
+    margin-top: 5px;
+  }
+  .navbar li {
+    font-size: 13px;
+    margin: 3px 0px;
+  }
+  .navbar {
+    margin: 10px 0px;
+    height: 125px;
+  }
+  .section1 h1 {
+    font-size: 10px;
+  }
+  .section1 p {
+    font-size: 9px;
+  }
+  .btn {
+    font-size: 7px;
+  }
+  .section2 {
+    padding: 0px 20px;
+  }
+  .section2 h1 {
+    font-size: 25px;
+  }
+  .section2 h2 {
+    font-size: 20px;
+  }
+  .section2 p {
+    font-size: 10px;
+    padding: 0px 2px;
+  }
+  .box {
+    width: 45vw;
+  }
+  .section3 {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  .section3 h1 {
+    font-size: 18px;
+  }
+  .section3 table th {
+    padding: 7px 12px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+  .icons {
+    padding: 14px 0px;
+    text-align: center;
+  }
+  .footer .icons i{
+    font-size: 1rem;
+  }
+}

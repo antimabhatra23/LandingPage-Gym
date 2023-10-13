@@ -1,0 +1,99 @@
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.font-bold {
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.my-1 {
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+.my-2 {
+  margin-top: 40px;
+  margin-bottom: 26px;
+}
+
+.px-2 {
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+.text-blue {
+  color: #a12141;
+}
+
+.btn-primary {
+  cursor: pointer;
+  background-color: transparent;
+  color: #a12141;
+  border: 2px solid #a12141;
+  border-radius: 5px;
+  padding: 8px;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.btn-primary:hover {
+  color: white;
+  background-color: #a12141;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.dumbellimg {
+  width: 120px;
+}
+
+.gymimg {
+  height: 90%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.highlighted {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 850px) {
+  .btn-primary {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .dumbellimg {
+    width: 60px;
+  }
+}
